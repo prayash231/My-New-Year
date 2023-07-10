@@ -48,3 +48,102 @@
     border: none;
     border-radius: 5px;
 }
+
+/* person section starts here */
+
+.person{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 87px;
+}
+
+/* .person-failures{
+    
+} */
+
+.person-failures-list{
+    /* padding-left: 17px; */
+    list-style: none;
+}
+
+span{
+    color: rgb(7, 232, 7);
+    font-size: 20px;
+}
+
+.person-failures-paragraph{
+    padding-top: 24px;
+    padding-bottom: 10px;
+}
+
+/* .person-profile{
+    width: 527.929px;
+    height: 527.929px;
+    border-radius: 527.929px;
+    background: rgba(241, 91, 34, 0.20);
+} */
+
+.person-profile-img{
+   
+    width: 500px;
+    
+}
+
+/* plans section starts here */
+.plans-heading{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.plans-logo{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.alignment{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* mindset section starts here */
+
+.mindset{
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), url("./images/watch.png");
+    
+    width: 1040px;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 8px;
+    padding-top: 20px;
+    /* background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%); */
+    background-repeat: no-repeat;
+    
+}
+
+.mindset-heading{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 64px;
+}
+
+.mindset-btn{
+    width: 160px;
+    height: 64px;
+    margin-left: 64px;
+    border: none;
+    border-radius: 5px;
+    background: #FFF;
+    color: #F15B22;
+}
